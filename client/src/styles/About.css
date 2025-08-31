@@ -1,0 +1,89 @@
+/* General Section Styling */
+.about-section {
+  background-color: #0d0d0d;
+  color: #fff;
+  padding: 80px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.section-title {
+  font-size: 36px;
+  text-align: center;
+  color: #facc15; /* Yellow */
+  margin-bottom: 20px;
+}
+
+.intro-text {
+  text-align: center;
+  font-size: 18px;
+  color: #ccc;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+.sub-title {
+  font-size: 24px;
+  color: #facc15;
+  margin-bottom: 15px;
+}
+
+/* Skills Grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.skill-box {
+  background: #1f1f1f;
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 8px;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.skill-box:hover {
+  background: #facc15;
+  color: #000;
+}
+
+/* Timeline (Education) */
+.timeline {
+  margin-bottom: 40px;
+}
+
+.timeline-item {
+  border-left: 4px solid #facc15;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.timeline-item h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.timeline-item p {
+  font-size: 16px;
+  color: #bbb;
+}
+
+/* Certifications */
+.certifications {
+  list-style: disc;
+  padding-left: 20px;
+  color: #ccc;
+}
+
+.certifications li {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
