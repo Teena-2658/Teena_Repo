@@ -28,7 +28,7 @@ const Home = () => {
 
           {/* Resume Button */}
           <a
-            href="/Teena_Resume.pdf"
+            href="/Teena_Resume_complete.pdf"
             target="_blank"
             rel="noreferrer"
             className="btn"
