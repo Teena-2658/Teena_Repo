@@ -8,9 +8,9 @@ const projects = [
 • Focused on accessibility and smooth user experience for all devices.
 • Enhanced performance using React hooks and optimized state management.`,
     techStack: ["React.js", "Web Speech API", "CSS3", "HTML5"],
-    demo: "https://virtual-assistant-9vh5.vercel.app",
+    demo: "https://virtual-assistant-9vh5.vercel.app", // ✅ only here
     github: "",
-    image: "/images/virtual-assistant.png" // optional screenshot
+    image: "/Screenshot 2025-06-20 144711.png"
   },
   {
     title: "CourseHub – Online Learning Platform",
@@ -21,9 +21,9 @@ const projects = [
 • Designed responsive UI with React.js, ensuring cross-device compatibility.
 • Improved user experience with clear navigation, search filters, and notifications.`,
     techStack: ["React.js", "Node.js", "MongoDB", "Express.js", "CSS3", "HTML5"],
-    demo: "",
+    demo: "", // ❌ empty, so Live Demo button won’t appear
     github: "https://github.com/Teena-2658/Coursehub",
-    image: "/images/coursehub.png" // optional screenshot
+    image: "/coursehub_img.png"
   }
 ];
 

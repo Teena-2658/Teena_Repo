@@ -8,7 +8,6 @@ const Projects = () => {
     <section className="projects-container" id="projects">
       <div className="container">
         <h2 className="section-title">My Projects</h2>
-
         <div className="projects-grid">
           {projects.map((project, index) => (
             <ProjectCard
@@ -18,6 +17,7 @@ const Projects = () => {
               techStack={project.techStack}
               github={project.github}
               demo={project.demo}
+              image={project.image}
             />
           ))}
         </div>

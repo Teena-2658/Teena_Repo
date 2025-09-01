@@ -14,7 +14,7 @@ const Contact = () => {
             <FaEnvelope className="info-icon" />
             <div>
               <h4>Email</h4>
-              <p>teenadeevray24@gmail.com</p>
+              <p>teenadevray24@gmail.com</p>
             </div>
           </div>
           <div className="info-item">
